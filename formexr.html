@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exercise on forms</title>
+</head>
+<body>
+
+	<form>
+		<p>
+			<fieldset>
+				<legend>YOUR DETAIL</legend>
+				<br>
+				<label for="name" >NAME:</label>
+				<input type="text" name="name">
+				<br>
+				<label for="email" >EMAIL:</label>
+				<input type="text" name="email">
+				<br>
+
+			</fieldset>
+		</p>
+		<br>
+		<form>
+		<p>
+			<fieldset>
+				<legend>YOUR REVIEW</legend>
+				<p>
+					How did you know about us: 
+					<!--drop box--->
+					<select name=" platforms">
+						<option value="Google">Google</option>
+						<option value="Advertisement">Advertisement</option>
+						<option value="Radio">Radio</option>
+						<br>
+					</select>
+				</p>
+				<p>
+					would visit again:
+					<br>
+					<input type="Radio" name="visit" value="yes" checked="checked"/>YES
+					<input type="Radio" name="visit" value="no" checked="checked"/>NO
+					<input type="Radio" name="visit" value="maybe" checked="checked">MAYBE
+					
+				</p>
+				<br>
+				<p>
+					comments:
+					<textarea cols="15" rows="2">
+						please comment
+					</textarea>
+					<br>
+
+				</p>
+				<p>
+					<input type="checkbox" name="sign" value="sign" checked="checked"/> sign up for email update
+					<input type="submit" name="submit">
+				</p>
+				
+
+			</fieldset>
+		</form>
+		</p>
+	</form>
+
+</body>
+</html>
