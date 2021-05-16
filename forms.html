@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body>
+	<p>
+		<!--form structure --->
+		<form action="ww.php" method="get">
+			<p>
+				This is where the form will appear
+			</p>
+			
+		</form>
+		<!--TEXT INPUT--->
+		<form action="wwww.php" method="get">
+			<p>
+				enter your username
+				<input type="text" name="username" size="15" maxlength="30">
+			</p>
+			
+		</form>
+		<!--PASSWORD INPUT--->
+		<form action="wwww.php" method="get" size = "15" maxlength = "30">
+			<p>
+				enter password
+			
+			<input type="PASSWORD" name="PASSWORD">
+		</p>
+		<!--TEXT AREA--->
+		<form action="wwww.php" method="get">
+			<textarea name="COMMENT" cols="15" rows="5">
+				ENTER COMMENT
+			</textarea>
+			
+		</form>
+			
+		</form>
+		<!--RADIO BUTTON--->
+		<form action="ww.php">
+			<p>
+				please slect yoir favourite:
+			</p>
+			<br>
+			<input type="RADIO" name="genre" value="bongo" checked="checked"/>bongo
+			<input type="RADIO" name="genre" value="gengetone" checked="checked"/>gengetone
+			<input type="RADIO" name="genre" value="reggae" checked="checked"/>reggae
+			
+		</form>
+		<!--CHECKBOX--->
+		<form action="wwww.php">
+			<p>
+			select services
+		</p>
+		<br>
+		<input type="CHECKBOX" name="services" value="boomplay" checked="checked"/>boomplay
+		<input type="CHECKBOX" name="services" value="itunes" checked="checked"/>itunes
+		<input type="CHECKBOX" name="services" value="youtube" checked="checked"/>youtube
+			
+		</form>
+		<!--drop down list box--->
+		<form action="wwww.php">
+			<p>
+				select devices:
+			</p>
+			<br>
+			<select name = "devices">
+			<option value="ipod"> ipod</option>
+			<option value="Radio">Radio</option>
+			<option value="tablet">tablet</option>
+			
+				
+			</select >
+
+
+			
+		</form>
+		<!--MULTIPLE SELECT BOX--->
+		<form www.php.com>
+			<p>
+				select your favourite instrument(you can select multiple choices by hold down control on your pc in linux and windows or command in mac)
+				<br>
+				<select name="instrument" size="3" multiple="multiple">
+					<option value="Drums" selected="selected" >Drum</option>
+					<option value="Guitar" selected="selected">Guitar</option>
+					<option value="keyboard" selected="selected">keyboard</option>
+					<option value="bass" selected="selected">Bass</option>
+				</select>
+
+			</p>
+		</form>
+		<!--File input box--->
+		<form action="wwww.example.php.com" method="post">
+			<p>
+				Please upload your file here:
+
+				<input type="file" name="user.song">
+				<br>
+				<input type="submit" name="upload" value="upload">
+			</p>
+
+			
+		</form>
+		<!--Submit Button--->
+		<form action="wwww.example.php.com"></form>
+		<p>
+			please subscribe to our email:
+			<input type="text" name="email">
+			<input type="submit" name="subscribe" value="subscribe">
+		</p>
+		<!--Image button--->
+		<form action="htpp// wwww.example.php.com">
+			<p style="display: flex;">please subscribe:
+				<input type="text" name="email"/>
+				<input type="Image" src="pictures/subscirbe.jpg" width="100" height="70" style="margin-top: 10px" />
+			</p>
+
+			
+		</form>
+		<!--button and hidden control--->
+		<form http//:www.example.cpm .php>
+			<button> <img src="pictures/subscirbe" width="10" height="10"/>subscribe</button>
+			<input type="hidden" name="subscirbe" value="lyrics" >
+			
+		</form>
+		<form>
+			
+			<!--LABELLING FORM CONTROLLS --->
+			<label> Age: <input type="age" name="age"></label>
+			<br>
+			GENDER:
+			<br>
+			<input  type="radio" name="gender" value="f" id="female">
+			<label for="female" > FEMALE </label>
+			<input  name="gender" value="m" id="male" type="radio">
+			<label for="male" >MALE</label>
+
+<br>
+
+
+		</form>
+		<!---GROUPING FORM CONTROLLS--->
+		<fieldset>
+			<legend>
+				CONTACTS DETAIL
+			</legend>
+			<br>
+			<label for="email">EMAIL:</label>
+			<br>
+			<input type="text" name="contacts ">
+			<br>
+
+			<label for="telephone">TELEPHONE:</label>
+			<br>
+			<input type="text" name="contacts">
+			<br>
+			<label  for="mobile" >MOBILE:</label>
+			<br>
+			<input type="text" name="contacts">
+			
+
+		</fieldset>
+		<!--FORM VALIDATION--->
+		<form >
+			<p>
+				<label for="username" >USERNAME: </label>
+				<br>
+				<input type="text" name="username" required="required">
+				<br>
+				<label  for="password" > PASSWORD</label>
+				<br>
+				<input type="password" name="password" required="required">
+			</p>
+			<input type="submit" name="submit">
+			
+		</form>
+		<!-- DATE INPUT--->
+		<form>
+			<p>
+				<label for="date" >DATE</label>
+				<br>
+				<input type="date" name="date">
+				<input type="submit" name="submit">
+			</p>
+		</form>
+		<!--EMAIL AND URL INPUT--->
+		<form>
+			<p>
+				<label for="email" >EMAIL</label>
+				<br>
+				<input type="email" name="email">
+			</p>
+			<p>
+				<label for="url" >ENTER WEBSITE:</label>
+				<br>
+				<input type="url" name="website">
+			</p>
+		</form>
+		<!--SERACH INPUT--->
+		<form>
+			<p>
+				search
+				<br>
+				<input type="search" name="search">
+				<input type="Submit" name="search">
+			</p>
+			<br>
+			<p>
+				Enter a key word:
+				<br>
+				<input type="search" name="search">
+				<input type="submit" name="search">
+			</p>
+		</form>
+
+
+		
+
+		
+	</p>
+
+</body>
+</html>
